@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda | SwaraLoka</title>
+    <link rel="icon" type="image/png" href="../1_Bahan/assets/img/logo.png" />
+
+    <!-- ================= links ================= -->
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/global-style.css" />
+    <script src="./scripts/script.js"></script>
+  </head>
+  <body>
+    <!-- ================= scroll up btn ================= -->
+
+    <div class="scroll-up-btn">
+      <img
+        src="../1_Bahan/assets/img/up-arrow.png"
+        alt=""
+        style="width: 20px; height: 20px"
+      />
+    </div>
+
+    <!-- ================= navbar ================= -->
+
+    <nav class="navbar">
+      <div class="content">
+        <div class="logo">
+          <img src="../1_Bahan/assets/img/logo.png" alt="" class="logo-images" />
+          <a href="#">SwaraLoka</a>
+        </div>
+        <ul class="menu-list">
+          <div class=" cancel-btn" onclick="closeSidebar()">
+            <!-- <img src="../1_Bahan/assets/img/close.png" alt="" class="icon"> -->
+          </div>
+          <li>
+            <a href="#" class="nav-link active" onclick="closeSidebar()"
+              >Beranda</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a
+              href="./pages/budayaPages/budaya.html"
+              class="nav-link"
+              onclick="closeSidebar()"
+              >Eksplorasi</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a
+              href="./pages/ceritaPages/cerita.html"
+              class="nav-link"
+              onclick="closeSidebar()"
+              >Cerita Budaya</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a
+              href="./pages/eventPages/event.html"
+              class="nav-link"
+              onclick="closeSidebar()"
+              >Event & Festival</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a href="./pages/loginPages/login.html" onclick="closeSidebar()">
+              <div class="login-btn">Masuk</div>
+            </a>
+          </li>
+        </ul>
+        <div class="icon menu-btn">
+          <img
+            src="../1_Bahan/assets/img/hamburger.png"
+            alt=""
+            width="25px"
+            height="auto"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= hero section ================= -->
+
+    <section class="hero-section">
+      <div class="container">
+        <div class="left-hero-section">
+          <p class="subtitle">SwaraLoka</p>
+          <p class="title">
+            Mengenal <span>Budaya</span> Menjaga <span>Warisan</span>
+          </p>
+          <p class="description">
+            Jelajahi kekayaan seni, kisah, dan tradisi Indonesia yang
+            menginspirasi serta diwariskan untuk generasi mendatang.
+          </p>
+          <div class="button-hero-wrapper">
+            <a href="#about-section" class="button-hero">Jelajahi</a>
+            <div class="secondary-button-hero">
+              <img src="../1_Bahan/assets/img/play.svg" alt="" />
+              <a href="#">Tonton Video</a>
+            </div>
+          </div>
+        </div>
+        <div class="right-hero-section">
+          <img
+            src="../1_Bahan/assets/img/hero-image.png"
+            alt=""
+            class="hero-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= eksplorasi budaya section ================= -->
+
+    <section class="budaya-section" id="about-section">
+      <div class="container">
+        <div class="left-section">
+          <img
+            src="../1_Bahan/assets/img/eksplorasi-budaya.png"
+            alt=""
+            class="budaya-image"
+          />
+        </div>
+        <div class="right-section">
+          <p class="subtitle">Eksplorasi</p>
+          <p class="title">
+            Budaya Nusantara
+            <img
+              src="../1_Bahan/assets/img/batik.svg"
+              alt=""
+              class="title-ornamen"
+            />
+          </p>
+          <p class="description">
+            Temukan keindahan budaya Indonesia melalui seni, musik, tarian, dan
+            tradisi yang kaya makna. Jelajahi dan pelajari warisan budaya yang
+            unik.
+          </p>
+          <a href="./pages/budayaPages/budaya.html" class="button"
+            >Lebih Banyak</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= arsitektur section ================= -->
+
+    <section class="arsitektur-section" id="peninggalan-section">
+      <div class="container">
+        <div class="arsitektur-text-content">
+          <p class="subtitle">Jejak Sejarah</p>
+          <p class="title">Arsitektur & Peninggalan</p>
+        </div>
+        <img
+          src="../1_Bahan/assets/img/map.png"
+          alt=""
+          class="arsitektur-image"
+        />
+      </div>
+    </section>
+
+    <!-- ================= cerita budaya section ================= -->
+
+    <section class="cerita-section" id="cerita-section">
+      <div class="container">
+        <div class="cerita-top-wrapper">
+          <div class="cerita-text-wrapper">
+            <p class="subtitle">Kisah Nusantara</p>
+            <p class="title">
+              Cerita Budaya
+              <img
+                src="../1_Bahan/assets/img/batik.svg"
+                alt=""
+                class="title-ornamen"
+              />
+            </p>
+          </div>
+          <div class="cerita-button-wrapper">
+            <a href="./pages/ceritaPages/cerita.html" class="button"
+              >Lebih Banyak</a
+            >
+          </div>
+        </div>
+        <div class="cerita-card-wrapper">
+          <div class="cerita-card">
+            <img src="../1_Bahan/assets/img/timun-mas.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Cerita Rakyat</div>
+                <h2 class="card-title">Timun Mas</h2>
+              </div>
+              <p class="card-description">
+                Perjuangan Timun Mas melarikan diri dari raksasa jahat dengan
+                bantuan sihir.
+              </p>
+              <a
+                href="./pages/ceritaPages/cerita.detail.content.html"
+                class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../1_Bahan/assets/img/malin-kundang.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Cerita Rakyat</div>
+                <h2 class="card-title">Malin Kundang</h2>
+              </div>
+              <p class="card-description">
+                Legenda tentang pemuda yang tanpa sadar ingin menikahi ibunya
+                sendiri, Dayang Sumbi.
+              </p>
+              <a
+                href="./pages/ceritaPages/cerita.detail.content.html"
+                class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../1_Bahan/assets/img/sangkuriang.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Cerita Rakyat</div>
+                <h2 class="card-title">Sangkuriang</h2>
+              </div>
+              <p class="card-description">
+                Kisah tragis anak durhaka yang dikutuk menjadi batu karena tak
+                mengakui ibunya.
+              </p>
+              <a
+                href="./pages/ceritaPages/cerita.detail.content.html"
+                class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= event & festival section ================= -->
+
+    <section class="event-section" id="event-section">
+      <div class="container">
+        <p class="subtitle">Perayaan</p>
+        <p class="title">
+          Event & Festival
+          <img
+            src="../1_Bahan/assets/img/batik.svg"
+            alt=""
+            class="title-ornamen"
+          />
+        </p>
+        <p class="description">
+          Temukan dan jelajahi event serta festival budaya Indonesia yang penuh
+          warna dan makna sejarah.
+        </p>
+        <div class="grid-event-container">
+          <a
+            href="./pages/eventPages/event.detail.html"
+            class="event-card card-1"
+          >
+            <img src="../1_Bahan/assets/img/event1.png" alt="" />
+            <div class="event-text-content">
+              <p class="event-subtitle">Jawa Timur</p>
+              <p class="event-title">Karapan Sapi</p>
+            </div>
+          </a>
+          <a
+            href="./pages/eventPages/event.detail.html"
+            class="event-card card-2"
+          >
+            <img src="../1_Bahan/assets/img/event2.png" alt="" />
+            <div class="event-text-content">
+              <p class="event-subtitle">Bali</p>
+              <p class="event-title">Tari Kecak</p>
+            </div>
+          </a>
+          <a
+            href="./pages/eventPages/event.detail.html"
+            class="event-card card-3"
+          >
+            <img src="../1_Bahan/assets/img/event3.png" alt="" />
+            <div class="event-text-content">
+              <p class="event-subtitle">Jawa Timur</p>
+              <p class="event-title">Reog Ponorogo</p>
+            </div>
+          </a>
+          <a
+            href="./pages/eventPages/event.detail.html"
+            class="event-card card-4"
+          >
+            <img src="../1_Bahan/assets/img/event4.png" alt="" />
+            <div class="event-text-content">
+              <p class="event-subtitle">Bali</p>
+              <p class="event-title">Pawai Ogoh-Ogoh</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= banner section ================= -->
+
+    <section class="banner-section">
+      <div class="container">
+        <img src="../1_Bahan/assets/img/batik.svg" alt="" class="title-ornamen" />
+        <p class="title">
+          Jaga Budaya, Lestarikan Warisan <span> Nusantara </span>
+        </p>
+        <p class="description">
+          Mari bersama menjaga dan mengenalkan kekayaan budaya Indonesia kepada
+          dunia! Jelajahi, pelajari, dan bagikan semangat melestarikan warisan
+          kita.
+        </p>
+        <a href="#" class="button">Mulai Jelajahi</a>
+      </div>
+    </section>
+
+    <!-- ================= footer section ================= -->
+
+    <section class="footer-section" id="footer-section">
+      <div class="footer-container">
+        <div class="footer-content">
+          <p class="website-name">SwaraLoka.</p>
+          <p class="footer-text">
+            Jelajahi kekayaan seni, kisah, dan tradisi Indonesia.
+          </p>
+        </div>
+        <div class="footer-content">
+          <p class="website-name">Tentang</p>
+          <div class="footer-links">
+            <a href="#"><p>Beranda</p></a>
+            <a href="#about-section"><p>Eksplorasi</p></a>
+            <a href="#peninggalan-section"><p>Peninggalan</p></a>
+            <a href="#cerita-section"><p>Cerita Budaya</p></a>
+            <a href="#event-section"><p>Perayaan</p></a>
+          </div>
+        </div>
+        <div class="footer-content">
+          <p class="website-name">Halaman Detail</p>
+          <div class="footer-links">
+            <a href="#"> <p>Beranda</p> </a>
+            <a href="./pages/budayaPages/budaya.html"><p>Budaya</p></a>
+            <a href="./pages/ceritaPages/cerita.html"><p>Cerita</p></a>
+            <a href="./pages/eventPages/event.html"><p>Event & Festival</p></a>
+          </div>
+        </div>
+        <div class="footer-content">
+          <p class="website-name">Kontak</p>
+          <div class="footer-links">
+            <a href="mailto:halo@swaraloka.com"><p>info@swaraloka.com</p></a>
+            <p>+62 813 4482 9209</p>
+            <p>Jln. Gajah Mada, Bandung</p>
+          </div>
+        </div>
+      </div>
+      <p
+        class="copyright"
+        style="
+          position: absolute;
+          bottom: 20px;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          opacity: 0.8;
+          color: var(--white);
+          font-weight: 500;
+          font-size: 14px;
+        "
+      >
+        Copyright © <span>SwaraLoka</span> | Designed by <span>Raditya.</span>
+      </p>
+    </section>
+  </body>
+</html>

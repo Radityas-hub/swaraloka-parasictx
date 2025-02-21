@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Cerita | SwaraLoka</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="../../../1_Bahan/assets/img/logo.png"
+    />
+
+    <!-- ================= links ================= -->
+
+    <link rel="stylesheet" href="./style.detail.css" />
+    <link rel="stylesheet" href="../../styles/global-style.css" />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- ================= scroll up btn ================= -->
+
+    <div class="scroll-up-btn">
+      <img
+        src="../../../1_Bahan/assets/img/up-arrow.png"
+        alt=""
+        style="width: 20px; height: 20px"
+      />
+    </div>
+
+    <!-- ================= navbar ================= -->
+
+    <nav class="navbar">
+      <div class="content">
+        <div class="logo">
+          <img
+            src="../../../1_Bahan/assets/img/logo.png"
+            alt=""
+            class="logo-images"
+          />
+          <a href="../../index.html">SwaraLoka</a>
+        </div>
+        <ul class="menu-list">
+          <div class=" cancel-btn" onclick="closeSidebar()">
+            <!-- <img src="../1_Bahan/assets/img/close.png" alt="" class="icon"> -->
+          </div>
+          <li>
+            <a href="../../index.html" class="nav-link" onclick="closeSidebar()"
+              >Beranda</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a
+              href="../budayaPages/budaya.html"
+              class="nav-link"
+              onclick="closeSidebar()"
+              >Eksplorasi</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a href="#" class="nav-link active" onclick="closeSidebar()"
+              >Cerita Budaya</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a
+              href="../eventPages/event.html"
+              class="nav-link"
+              onclick="closeSidebar()"
+              >Event & Festival</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a href="../loginPages/login.html">
+              <div class="login-btn">Masuk</div>
+            </a>
+          </li>
+        </ul>
+        <div class="icon menu-btn">
+          <img
+            src="../../../1_Bahan/assets/img/hamburger.png"
+            alt=""
+            width="25px"
+            height="auto"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= hero section ================= -->
+
+    <section class="cerita-section">
+      <div class="container">
+        <div class="cerita-top-wrapper">
+          <div class="cerita-text-wrapper">
+            <p class="subtitle">Cerita Budaya</p>
+            <p class="title">
+              Legenda
+              <img
+                src="../1_Bahan/assets/img/batik.svg"
+                alt=""
+                class="title-ornamen"
+              />
+            </p>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-btn">
+              Semua
+              <img
+                src="../../../1_Bahan/assets/img/down-arrow.png"
+                alt=""
+                class="icon"
+              />
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Terpopuler</a>
+              <a href="#">Terbaru</a>
+              <a href="#">Terlama</a>
+            </div>
+          </div>
+        </div>
+        <div class="cerita-card-wrapper">
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/timun-mas.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Legenda</div>
+                <h2 class="card-title">Timun Mas</h2>
+              </div>
+              <p class="card-description">
+                Perjuangan Timun Mas melarikan diri dari raksasa jahat dengan
+                bantuan sihir.
+              </p>
+              <a
+                href="./cerita.detail.content.html"
+                class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/malin-kundang.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Legenda</div>
+                <h2 class="card-title">Malin Kundang</h2>
+              </div>
+              <p class="card-description">
+                Legenda tentang pemuda yang tanpa sadar ingin menikahi ibunya
+                sendiri, Dayang Sumbi.
+              </p>
+              <a
+                href="./cerita.detail.content.html"
+                class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/sangkuriang.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Legenda</div>
+                <h2 class="card-title">Sangkuriang</h2>
+              </div>
+              <p class="card-description">
+                Kisah tragis anak durhaka yang dikutuk menjadi batu karena tak
+                mengakui ibunya.
+              </p>
+              <a
+                href="./cerita.detail.content.html"
+                class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/bawang.jpg" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Legenda</div>
+                <h2 class="card-title">Bawang Merah & Bawang Putih </h2>
+              </div>
+              <p class="card-description">
+                Kisah dua saudara tiri dengan nasib berbeda akibat kebaikan dan kejahatan.
+              </p>
+              <a href="./cerita.detail.content.html" class="button">Detail</a>
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/jaka.jpg" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Legenda</div>
+                <h2 class="card-title">Jaka Tarub & Nawang Wulan</h2>
+              </div>
+              <p class="card-description">
+                Kisah seorang pemuda yang mencuri selendang bidadari dan menikahinya.
+              </p>
+              <a href="./cerita.detail.content.html" class="button">Detail</a>
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/Keong Mas.jpg" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Legenda</div>
+                <h2 class="card-title">Keong Mas</h2>
+              </div>
+              <p class="card-description">
+                Putri yang dikutuk menjadi keong hingga akhirnya kembali ke wujud aslinya berkat kebaikan.
+              </p>
+              <a href="./cerita.detail.content.html" class="button">Detail</a>
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/lutung.jpg" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Legenda</div>
+                <h2 class="card-title">Lutung Kasarung</h2>
+              </div>
+              <p class="card-description">
+                Cerita tentang pangeran yang dikutuk menjadi lutung (kera) dan mencari cinta sejatinya.
+              </p>
+              <a href="./cerita.detail.content.html" class="button">Detail</a>
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/pitung.jpg" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Legenda</div>
+                <h2 class="card-title">Si Pitung</h2>
+              </div>
+              <p class="card-description">
+                Legenda tentang pendekar Betawi yang berjuang melawan ketidakadilan penjajah Belanda.
+              </p>
+              <a href="./cerita.detail.content.html" class="button">Detail</a>
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/The Ande Ande Lumut.jpg" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Legenda</div>
+                <h2 class="card-title">Ande-Ande Lumut</h2>
+              </div>
+              <p class="card-description">
+                Kisah cinta seorang pangeran yang menyamar dan diuji oleh calon istrinya.
+              </p>
+              <a href="./cerita.detail.content.html" class="button">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="#" class="prev-next prev">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+            </svg>
+            Prev
+          </a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#" class="prev-next next">
+            Next
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= footer section ================= -->
+
+    <section class="footer-section" id="footer-section">
+      <div class="footer-container">
+        <div class="footer-content">
+          <p class="website-name">SwaraLoka.</p>
+          <p class="footer-text">
+            Jelajahi kekayaan seni, kisah, dan tradisi Indonesia.
+          </p>
+        </div>
+        <div class="footer-content">
+          <p class="website-name">Tentang</p>
+          <div class="footer-links">
+            <a href="../../index.html"><p>Beranda</p></a>
+            <a href="../../index.html#about-section"><p>Eksplorasi</p></a>
+            <a href="../../index.html#peninggalan-section"
+              ><p>Peninggalan</p></a
+            >
+            <a href="../../index.html#cerita-section"><p>Cerita Budaya</p></a>
+            <a href="../../index.html#event-section"><p>Perayaan</p></a>
+          </div>
+        </div>
+        <div class="footer-content">
+          <p class="website-name">Halaman Detail</p>
+          <div class="footer-links">
+            <a href="../../index.html"> <p>Beranda</p> </a>
+            <a href="../budayaPages/budaya.html"><p>Budaya</p></a>
+            <a href="./cerita.html"><p>Cerita</p></a>
+            <a href="../eventPages/event.html"><p>Event & Festival</p></a>
+          </div>
+        </div>
+        <div class="footer-content">
+          <p class="website-name">Kontak</p>
+          <div class="footer-links">
+            <a href="mailto:halo@swaraloka.com"><p>info@swaraloka.com</p></a>
+            <p>+62 813 4482 9209</p>
+            <p>Jln. Gajah Mada, Bandung</p>
+          </div>
+        </div>
+      </div>
+      <p
+        class="copyright"
+        style="
+          position: absolute;
+          bottom: 20px;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          opacity: 0.8;
+          color: var(--white);
+          font-weight: 500;
+          font-size: 14px;
+        "
+      >
+        Copyright © <span>SwaraLoka</span> | Designed by <span>Raditya.</span>
+      </p>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event | SwaraLoka</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="../../../1_Bahan/assets/img/logo.png"
+    />
+
+    <!-- ================= links ================= -->
+
+    <link rel="stylesheet" href="./event.css" />
+    <link rel="stylesheet" href="../../styles/global-style.css" />
+    <script src="../../scripts/script.js"></script>
+  </head>
+  <body>
+    <!-- ================= scroll up btn ================= -->
+
+    <div class="scroll-up-btn">
+      <img
+        src="../../../1_Bahan/assets/img/up-arrow.png"
+        alt=""
+        style="width: 20px; height: 20px"
+      />
+    </div>
+
+    <!-- ================= navbar ================= -->
+
+    <nav class="navbar">
+      <div class="content">
+        <div class="logo">
+          <img
+            src="../../../1_Bahan/assets/img/logo.png"
+            alt=""
+            class="logo-images"
+          />
+          <a href="../../index.html">SwaraLoka</a>
+        </div>
+        <ul class="menu-list">
+          <div class=" cancel-btn" onclick="closeSidebar()">
+            <!-- <img src="../1_Bahan/assets/img/close.png" alt="" class="icon"> -->
+          </div>
+          <li>
+            <a href="../../index.html" class="nav-link" onclick="closeSidebar()"
+              >Beranda</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a
+              href="../budayaPages/budaya.html"
+              class="nav-link"
+              onclick="closeSidebar()"
+              >Eksplorasi</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a href="../ceritaPages/cerita.html" class="nav-link" onclick="closeSidebar()"
+              >Cerita Budaya</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a
+              href="../eventPages/event.html"
+              class="nav-link active"
+              onclick="closeSidebar()"
+              >Event & Festival</a
+            >
+            <div class="nav-active-border"></div>
+          </li>
+          <li>
+            <a href="../loginPages/login.html">
+              <div class="login-btn">Masuk</div>
+            </a>
+          </li>
+        </ul>
+        <div class="icon menu-btn">
+          <img
+            src="../../../1_Bahan/assets/img/hamburger.png"
+            alt=""
+            width="25px"
+            height="auto"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= hero section ================= -->
+
+    <section class="cerita-section">
+      <div class="container">
+        <div class="cerita-top-wrapper">
+          <div class="cerita-text-wrapper">
+            <p class="subtitle">Perayaan</p>
+            <p class="title">
+              Event & Festival
+              <img
+                src="../1_Bahan/assets/img/batik.svg"
+                alt=""
+                class="title-ornamen"
+              />
+            </p>
+          </div>
+          <div class="dropdown">
+            <button class="dropdown-btn">
+              Semua
+              <img
+                src="../../../1_Bahan/assets/img/down-arrow.png"
+                alt=""
+                class="icon"
+              />
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Terpopuler</a>
+              <a href="#">Terbaru</a>
+              <a href="#">Terlama</a>
+            </div>
+          </div>
+        </div>
+        <div class="cerita-card-wrapper">
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/tari-kecak.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Bali</div>
+                <h2 class="card-title">Tari Kecak</h2>
+              </div>
+              <p class="card-description">
+                Tarian khas Bali yang diiringi suara "cak" berulang-ulang dari
+                para penari laki-laki.
+              </p>
+              <a href="../eventPages/event.detail.html" class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/tari-saman.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Aceh</div>
+                <h2 class="card-title">Tari Saman</h2>
+              </div>
+              <p class="card-description">
+                Tarian serempak dari Aceh yang terkenal dengan ritme cepat dan
+                gerakan tangan yang dinamis.
+              </p>
+              <a href="../eventPages/event.detail.html" class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/tari-pendet.jpg" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Bali</div>
+                <h2 class="card-title">Tari Pendet</h2>
+              </div>
+              <p class="card-description">
+                Tarian penyambutan khas Bali yang anggun dan elegan.
+              </p>
+              <a href="../eventPages/event.detail.html" class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/event3.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Jawa Timur</div>
+                <h2 class="card-title">Reog Ponorogo</h2>
+              </div>
+              <p class="card-description">
+                Tarian dengan topeng singa besar dan properti megah.
+              </p>
+              <a href="../eventPages/event.detail.html" class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/tari-jaipong.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Jawa Barat</div>
+                <h2 class="card-title">Tari Jaipong</h2>
+              </div>
+              <p class="card-description">
+                Tarian khas Sunda dengan gerakan dinamis dan musik gamelan.
+              </p>
+              <a href="../eventPages/event.detail.html" class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/tari-serimpi.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Jawa Tengah</div>
+                <h2 class="card-title">Tari Serimpi</h2>
+              </div>
+              <p class="card-description">
+                Tarian klasik keraton yang anggun dan lembut.
+              </p>
+              <a href="../eventPages/event.detail.html" class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/nyepi.jpg" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Bali</div>
+                <h2 class="card-title">Nyepi</h2>
+              </div>
+              <p class="card-description">
+                Hari raya umat Hindu dengan ritual Catur Brata Penyepian, termasuk meditasi hening.
+              </p>
+              <a href="../eventPages/event.detail.html" class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/event1.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Jawa Timur</div>
+                <h2 class="card-title">Karapan Sapi</h2>
+              </div>
+              <p class="card-description">
+                Balapan sapi khas Madura yang digelar setiap tahun sebagai ajang kebanggaan peternak lokal.
+              </p>
+              <a href="../eventPages/event.detail.html" class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+          <div class="cerita-card">
+            <img src="../../../1_Bahan/assets/img/event4.png" alt="" />
+            <div class="card-content">
+              <div class="card-header">
+                <div class="card-subtitle">Bali</div>
+                <h2 class="card-title">Pawai Ogoh-Ogoh</h2>
+              </div>
+              <p class="card-description">
+                Arak-arakan patung raksasa pada malam sebelum Nyepi sebagai simbol pembersihan dari roh jahat.
+              </p>
+              <a href="../eventPages/event.detail.html" class="button"
+                >Detail</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="pagination">
+          <a href="#" class="prev-next prev">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+            </svg>
+            Prev
+          </a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#" class="prev-next next">
+            Next
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= footer section ================= -->
+
+    <section class="footer-section" id="footer-section">
+      <div class="footer-container">
+        <div class="footer-content">
+          <p class="website-name">SwaraLoka.</p>
+          <p class="footer-text">
+            Jelajahi kekayaan seni, kisah, dan tradisi Indonesia.
+          </p>
+        </div>
+        <div class="footer-content">
+          <p class="website-name">Tentang</p>
+          <div class="footer-links">
+            <a href="../../index.html"><p>Beranda</p></a>
+            <a href="../../index.html#about-section"><p>Eksplorasi</p></a>
+            <a href="../../index.html#peninggalan-section"
+              ><p>Peninggalan</p></a
+            >
+            <a href="../../index.html#cerita-section"><p>Cerita Budaya</p></a>
+            <a href="../../index.html#event-section"><p>Perayaan</p></a>
+          </div>
+        </div>
+        <div class="footer-content">
+          <p class="website-name">Halaman Detail</p>
+          <div class="footer-links">
+            <a href="../../index.html"> <p>Beranda</p> </a>
+            <a href="../budayaPages/budaya.html"><p>Budaya</p></a>
+            <a href="../ceritaPages/cerita.html"><p>Cerita</p></a>
+            <a href="../eventPages/event.html"><p>Event & Festival</p></a>
+          </div>
+        </div>
+        <div class="footer-content">
+          <p class="website-name">Kontak</p>
+          <div class="footer-links">
+            <a href="mailto:halo@swaraloka.com"><p>info@swaraloka.com</p></a>
+            <p>+62 813 4482 9209</p>
+            <p>Jln. Gajah Mada, Bandung</p>
+          </div>
+        </div>
+      </div>
+      <p
+        class="copyright"
+        style="
+          position: absolute;
+          bottom: 20px;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          opacity: 0.8;
+          color: var(--white);
+          font-weight: 500;
+          font-size: 14px;
+        "
+      >
+        Copyright © <span>SwaraLoka</span> | Designed by <span>Raditya.</span>
+      </p>
+    </section>
+  </body>
+</html>
